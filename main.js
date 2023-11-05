@@ -47,7 +47,7 @@ function init() {
 
     const loader = new GLTFLoader();
     loader.setDRACOLoader( dracoLoader );
-    loader.setPath( 'models/' );
+    loader.setPath( './models/' );
     loader.load( 'MenuCompressed.glb', function ( gltf ) {
        
         scene.add( gltf.scene );
